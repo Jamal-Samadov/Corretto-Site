@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Coffee{
+
+    width: 100%;
+
+}
+.Coffee-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    position: fixed;
+}
+
+.Coffee-head .coffee-left{
+    width: 15%;
+}
+.coffee-right{
+    margin: 20px;
+    text-align: center;
+}
+
+.main-logo i{
+    position: fixed;
+    width: 38px;
+    height: 37px;
+    background-color: red;
+    color: white;
+    padding: 4px 5px;
+    top: 521px;
+    right: 6px;
+    font-size: 30px;
+    z-index: 1;
+}   
+
+.main-logo2 i{
+    background-color: white;
+    color: red;
+    font-size: 20px;
+    width: 39px;
+    height: 43px;
+    padding: 6px;
+    top: 568px;
+    right: 4px;
+    position: fixed;
+    font-size: 27px;
+}
+
+.coffee-right a{
+    width: 10%;
+    text-decoration: none;
+    margin: -22px;
+    font-size: 20px;
+    padding-left: 71px;
+    color: white;
+    position: relative;
+}
+
+.coffee-right a::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: grey;
+    bottom: -6px;
+    left: 0; 
+    transition: .5s;
+}
+.coffee-right a:hover::before{
+    width: 100%;
+}
+
+.coffee-icon{
+    width: 20%;
+    color: white;
+    font-size: 20px;
+}
+.coffee-icon i{
+    padding-left: 50px;
+
+}
+.coffee-left img{
+    width: 100%;
+}
+.Coffee-head .coffee-right{
+    width: 60%;
+}
+
+.Coffee-body{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/home-1-slider-image-2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+    padding: 15rem;
+}
+
+.Coffee-body .cof-logo{
+    padding: 2px 122px;
+}
+.Coffee-body h1{
+    color: white;
+    padding: 30px 0px;
+    font-size: 55px;
+}
+.Coffee-body p{
+    color: white;
+    text-align: center;
+    padding: 1px 204px;
+    width: 100%;
+    font-size: 21px;
+    margin: 0px 225px;
+    padding-bottom: 64px;
+}
+.Coffee-body a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    margin: 103px;
+    padding: 25px 53px;
+    background: transparent;
+    border: 1px solid grey;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+.Coffee-body .coffee-textt a:hover{
+    background-color: rgb(237, 131, 137)  ;
+}
+.offer-text{
+    text-align: center;
+}
+.offer-text h1{
+    color: #262626;
+    padding-top: 120px;
+    font-size: 57px;
+    margin: 41px;
+}
+.offer-text p{
+    color: #262626;
+    font-size: 25px;
+    width: 42%;
+    margin: 0px 24rem;
+    padding-bottom: 23px;
+}
+
+.offer-text img{
+    padding-bottom: 31px;
+}
+
+.offer-bottom{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 4rem;
+}
+.offer-bottom .box img{
+    margin-left: 58px;
+}
+.offer-bottom .box h2{
+    color: #BE9C79;
+    FONT-SIZE: 22px;
+    margin: 8px 18px 12px;
+}
+
+.offer-bottom p{
+    color: #656565;
+    font-size: 17px;
+    width: 74%;
+    text-align-last: center;
+}
+.herald-text{
+    text-align: center;
+}
+.herald-text h1{
+    color: #262626;
+    padding-top: 120px;
+    font-size: 57px;
+    margin: 41px;
+}
+.herald-text p{
+    color: #262626;
+    font-size: 25px;
+    width: 42%;
+    margin: 0px 24rem;
+    padding-bottom: 23px;
+}
+
+.herald-text img{
+    padding-bottom: 31px;
+}
+
+.Herald{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.herald-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10rem;
+}
+
+.herald-bottom .box{
+    width: 28%;
+}
+.herald-bottom .box img{
+    width: 100%;
+}
+.herald-bottom h2{
+    font-size: 22px;
+    color: #262626;
+    margin: 27px 0px 26px 0px;
+    transition: .5s;
+}
+
+.herald-bottom .herald-text p{
+    color: #656565;
+    width: 19rem;
+    
+}
+.herald-bottom h2:hover{
+    color: rgb(107, 120, 6);
+}
+.coffee-img{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10rem;
+    padding: 13rem 0rem;
+}
+
+.Coffee-num {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 4rem;
+}
+.Coffee-num h1{
+    color: #BE9C79;
+    FONT-SIZE: 62px;
+    padding: 36px 72px;
+}
+.Coffee-num h2{
+    color: #262626;
+    padding-bottom: 15px;
+}
+.Coffee-num p{
+    color: #656565;
+    text-align-last: center;
+}
+.Shop{
+
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Shop-text{
+    text-align: center;
+}
+.Shop-text h1{
+    color: #262626;
+    padding-top: 120px;
+    font-size: 57px;
+    margin: 41px;
+}
+.Shop-text p{
+    color: #262626;
+    font-size: 25px;
+    width: 42%;
+    margin: 0px 24rem;
+    padding-bottom: 23px;
+}
+
+.Shop-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Shop-text img{
+    padding-bottom: 31px;
+}
+
+.Shop-bottom .box{
+    width: 15%;
+}
+.Shop-bottom .box img{
+    width: 100%;
+}
+
+.Shop-bottom .box h2{
+    color: #262626;
+    font-size: 21px;
+    width: 100%;
+    padding: 0px 46px 14px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.Shop-bottom .box p{
+    color: #777777;
+    padding: 0px 70px;
+    margin-bottom: 153px;
+}
+
+.Shop-bottom h2:hover{
+    color: rgb(107, 120, 6);
+}
+.Gall-text{
+    text-align: center;
+}
+
+.Gall-text h1{
+    color: #262626;
+    padding-top: 120px;
+    font-size: 57px;
+    margin: 41px;
+    transition: .5s;
+}
+.Gall-text p{
+    color: #262626;
+    font-size: 25px;
+    width: 42%;
+    margin: 0px 24rem;
+    padding-bottom: 14rem;
+}
+.Gall-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.Gall-bottom .box{
+    width: calc(100%/4);
+    height: 100%;
+    padding: 20px;
+}
+.Gall-bottom .box img{
+    width: 100%;
+}
+.box{
+    position: relative;
+}
+
+.Gall-bottom .box:hover .overlay{
+    opacity: 1;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+
+.Brands .Brands-shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Brands-shop .box{
+    width: 50%;
+    
+}
+.Brands-shop .box img{
+    width: 100%;
+    padding-top: 74px !important;
+    padding-bottom: 100px !important;
+    cursor: pointer;
+}
+.Brands-shop .box:hover img{
+    color: aqua;
+}
+
+.Contact{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Contact .left{
+    width: 100%;
+    padding-top: 161px 
+}
+.Contact .left h1{
+    margin: 0px 70px;
+    font-size: 19px;
+    height: 101px;
+    color: #262626;
+}
+.Contact .right a{
+  text-align: right;
+  padding-left: 205px;
+    margin: 99px 99px;
+    text-decoration: none;
+    background-color: #BE9C79;
+    font-size: 18PX;
+    padding: 21px;
+    color: white;
+}
+
+.Contact .right{
+    width: 100%;
+}
+
+.Stores{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.Stores .Stores-logo{
+    padding: 67px;
+}
+
+.Stores-text .up h1{
+    color: white;
+    font-size: 18px;
+    padding: 8px 24rem
+}
+
+.Stores-text .down h1{
+    color: white;
+    padding: 81px 29px 10px;
+}
+
+.Stores-text .down p{
+    color: white;
+    padding-bottom: 80px;
+}
+
+.Stores-email h1{
+    color: white;
+    padding-bottom: 17px;
+}
+
+.Stores-email i{
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    background-color: white;
+    padding: 20px;
+}
+
+form select{
+    border:  2px solid white;
+    background-color: transparent;
+    color: grey;
+    outline: none;
+    
+}
+.Stores-email form{
+    margin: 69px 23rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 220px 129px;
+}
+
+.Stores-email input{
+    padding: 25px;
+    border: 1px solid grey;
+    background-color: transparent;
+    color: white;
+}
+
+.Coffee-footer{
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Coffee-footer .coffee-center a{
+    text-decoration: none;
+    color: white;
+    padding: 35px;
+    padding: 31px 12px 46px;
+    margin-right: 46px;
+    font-size: 20px;
+}
+
+.Coffee-footer .coffee-left p{
+    color: white;
+    padding: 4rem;
+}
+
+.coffee-right i{
+    color: white;
+    font-size: 20px;
+    padding-right: 2rem;
+}
